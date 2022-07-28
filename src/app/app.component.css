@@ -1,5 +1,7 @@
-p {
-  font-family: Lato;
+body{
+  font-family: Times New Roman;
+  color:Blue;
+  background-color:PInk;
 }
 .btn1Color {
   color: blue;
