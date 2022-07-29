@@ -1,7 +1,7 @@
 body{
   font-family: Times New Roman;
   color:white;
-  background-color:peru;
+  background-color:rgb(231, 185, 138);
 }
 .btn1Color {
   color: blue;
@@ -15,5 +15,13 @@ table,th,td{
     display: block;
     margin-left: 40px;
     color:blue;
+  }
+
+  .mydiv{
+    border:5px solid rgb(20, 188, 230);
+    background-color:rgb(229, 236, 238);
+    text-align:center;
+    color: black;
+
   }
 
