@@ -171,9 +171,10 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
 
 <h1>The optgroup element</h1>
 
-<p>The optgroup tag is used to group related options in a drop-down list:</p>
+<p>The optgroup tag is used to group related options in a <span style="color:blue;font-weight:bold" >drop-down </span> list:</p>
 
-<form action="/action_page.php">
+
+<form>
 <label for="cars">Choose a car:</label>
 <select name="cars" id="cars">
   <optgroup label="Swedish cars">
@@ -184,7 +185,28 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
     <option value="Mercedes">Mercedes</option>
     <option value="BMW">BMW</option>
   </optgroup>
+</select>
 </form>
+<h1>The output element</h1>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="50">
+<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+<label for="file">downloading progress:</label>
+<progress id="file" value="32" max="100">32%</progress>
+
+
+<h1>The svg element</h1>
+
+<svg width="50" height="50">
+  <circle cx="50" cy="50" r="40" stroke="red" stroke-width="10" fill="blue" />
+  Sorry, your browser does not support inline SVG.
+</svg>
 
 
 </body>
