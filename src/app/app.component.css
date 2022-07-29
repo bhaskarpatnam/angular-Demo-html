@@ -1,7 +1,8 @@
 body{
   font-family: Times New Roman;
   color:white;
-  background-color:rgb(231, 185, 138);
+  background-color:white(236, 235, 233);
+  color:black;
 }
 .btn1Color {
   color: blue;
@@ -23,5 +24,9 @@ table,th,td{
     text-align:center;
     color: black;
 
+  }
+
+  .all-borders{
+    background-color: lightgray;
   }
 

@@ -94,7 +94,7 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
 <h1>The dfn element</h1>
 <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
 
-<dialog open>This is a open dialog</dialog><br/>
+<dialog open>This is a open dialog</dialog><br/><br/>
 
 <div class="mydiv">
   <h2>This is some text</h2>
@@ -108,18 +108,56 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
   <h1>The fieldset element</h1>
 
 <form action="/action_page.php">
- <fieldset>
-  <legend>Personalia:</legend>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <label for="birthday">Birthday:</label>
-  <input type="date" id="birthday" name="birthday"><br><br>
-  <input type="submit" value="Submit">
- </fieldset>
+  <fieldset>
+    <legend>Personalia</legend>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="Email">Email:</label>
+    <input type="Email" id="Email" name="Email"><br><br>
+    <label for="Birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="submit" value="submit">
+  </fieldset>
 </form>
+
+<figure>
+  <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+<iframe src="javascript:void(0)" title="W3Schools Free Online Web Tutorials">
+</iframe>
+
+<h1>The Main Languages of the Web</h1>
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+<h1>The meter element</h1>
+
+<p>The meter element is used to display a gauge:</p>
+
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter>
+
+<object data="movie.mp4" width="400" height="300"></object>
+<video controls>
+<video src="movie.(mp4)" type="video/mp4"></video>
 </body>
 </html>
