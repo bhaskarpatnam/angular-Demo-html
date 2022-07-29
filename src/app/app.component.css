@@ -1,7 +1,7 @@
 body{
   font-family: Times New Roman;
   color:white;
-  background-color:rgb(216, 134, 149);
+  background-color:peru;
 }
 .btn1Color {
   color: blue;
@@ -11,3 +11,9 @@ body{
 table,th,td{
   border:100px;
 }
+  dd { 
+    display: block;
+    margin-left: 40px;
+    color:blue;
+  }
+
