@@ -1,212 +1,34 @@
 <!DOCTYPE html>
-<html>
-<head>
-<!-- This is a demo html website-->
-<title>html Demo</title>
-<style>
-table,th,td {
-  border:2px solid black;
-}
-</style>
-</head>
-<body>
-<a href="www.google.com">Visit google to search anything.</a><br/>
-<abbr title="GOOGLE">Web search</abbr>founded in 1998.
-<address>
-18-7-526/98, SRT colony, kandikal gate,Huppugda,Hyderabad.
-</address>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3HAc4I3TOISywFqkJ3EWA5xzRCEsAukf_Xw&usqp=CAU" alt="Wine bottle" width="50%" height="50%">
-<article>
-<h2>Google chrome</h2>
-<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-</article>
-<aside>
-<h2>Google chrome</h2>
-<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-</aside>
-<audio controls>
-<source src="https://www.w3schools.com/tags/horse.ogg" type="audio/mp3">
-<source src="https://www.w3schools.com/tags/horse.ogg" type="audio/mpeg">
-</audio>
-<table>
-<colgroup>
-<col span="2" style="background-color:blue">
-<col style="background-color:blue">
-</colgroup>
-<tr>
-<th>S no</th>
-<th style=vertical-align>Names</th>
-</tr>
-<tr>
-<td>1</td>
-<td>Bhaskar</td>
-<tr>
-</table>
-<button type="button" onclick="alert('Ok GOOGLE')" class="btn1Color">Click Me!</button>
-<ul style="line-height:80%">
-  <li>User <bdi>hrefs</bdi>: 60 points</li>
-  <li>User <bdi>jdoe</bdi>: 80 points</li>
-  <li>User <bdi>إيان</bdi>: 90 points</li>
- </ul>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital-clock</title>
+    <link rel="stylesheet" href="app.component.css" />
+  </head>
+  <body>
+    <h2>Digital-clock</h2>
+    <div>
+      <div>
+        <span id="hours">00</span>
+        <span class="text">Hours</span>
+      </div>
 
-<ul>
-  <li><data value="21053">Cherry Tomato</data></li>
-  <li><data value="21054">Beef Tomato</data></li>
-  <li><data value="21055">Snack Tomato</data></li>
-</ul>
- <p><img src="https://www.w3schools.com/images/stickman.gif" width="24" height="39" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
+      <div>
+        <span id="minutes">00</span>
+        <span class="text">Minutes</span>
+      </div>
 
-<p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
-<p>This paragraph will go left-to-right.</p>  
-<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>  
+      <div>
+        <span id="seconds">00</span>
+        <span class="text">Seconds</span>
+      </div>
 
-<p>Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
-</blockquote>
-<h1>The datalist element</h1>
-<form action="/action_page.php" method="get">
-  <label for="browser">Choose your browser from the list:</label>
-  <input list="browsers" name="browser" id="browser">
-  <datalist id="browsers">
-    <option value="Edge">
-    <option value="Firefox">
-    <option value="Chrome">
-    <option value="Opera">
-    <option value="Safari">
-  </datalist>
-  <input type="submit">
-</form>
-<p><strong>Note:</strong>The datalist tag is not supported in Safari 12.0 (or earlier).</p>
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl>
-<p>The offer price is dropped from <del>12000</del> to 10000</p>
-<h1>The Epcot Element</h1>
-<details>
-  <summary>Epcot Center</summary>
-  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</details>
-
-<h1>The dfn element</h1>
-<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
-
-<dialog open>This is a open dialog</dialog><br/><br/>
-
-<div class="mydiv">
-  <h2>This is some text</h2>
-  <p>This is some text</p>
-</div>
-
-
-<h1>The embed element</h1>
-<embed type="https://www.w3schools.com/tags/pic_trulli.jpg" src="pic_trulli.jpg" width="300" height="200">
-
-  <h1>The fieldset element</h1>
-
-<form action="/action_page.php">
-  <fieldset>
-    <legend>Personalia</legend>
-    <label for="fname">First Name:</label>
-    <input type="text" id="fname" name="fname"><br><br>
-    <label for="lname">Last Name:</label>
-    <input type="text" id="lname" name="lname"><br><br>
-    <label for="Email">Email:</label>
-    <input type="Email" id="Email" name="Email"><br><br>
-    <label for="Birthday">Birthday:</label>
-    <input type="date" id="birthday" name="birthday"><br><br>
-    <input type="submit" value="submit">
-  </fieldset>
-</form>
-
-<figure>
-  <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="Trulli" style="width:100%">
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-</figure>
-
-<footer>
-  <p>Author: Hege Refsnes<br>
-  <a href="mailto:hege@example.com">hege@example.com</a></p>
-</footer>
-
-<iframe src="javascript:void(0)" title="W3Schools Free Online Web Tutorials">
-</iframe>
-
-<h1>The Main Languages of the Web</h1>
-<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
-
-<hr>
-
-<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
-
-<hr>
-
-<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
-
-<h1>The meter element</h1>
-
-<p>The meter element is used to display a gauge:</p>
-
-<label for="disk_c">Disk usage C:</label>
-<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
-
-<label for="disk_d">Disk usage D:</label>
-<meter id="disk_d" value="0.6">60%</meter>
-
-<object data="movie.mp4" width="400" height="300"></object>
-
-<h1>The nav element</h1>
-
-<p>The nav element defines a set of navigation links:</p>
-
-<nav>
-<a href="/html/">HTML</a> |
-<a href="/css/">CSS</a> |
-<a href="/js/">JavaScript</a> |
-<a href="/python/">Python</a> |
-</nav>
-
-<h1>The optgroup element</h1>
-
-<p>The optgroup tag is used to group related options in a <span style="color:blue;font-weight:bold" >drop-down </span> list:</p>
-
-
-<form>
-<label for="cars">Choose a car:</label>
-<select name="cars" id="cars">
-  <optgroup label="Swedish cars">
-    <option value="Volvo">Volvo</option>
-    <option value="Audi">Audi</option>
-  </optgroup>
-  <optgroup lael="German Cars">
-    <option value="Mercedes">Mercedes</option>
-    <option value="BMW">BMW</option>
-  </optgroup>
-</select>
-</form>
-<h1>The output element</h1>
-
-<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-<input type="range" id="a" value="50">
-<input type="number" id="b" value="25">
-=<output name="x" for="a b"></output>
-</form>
-
-<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
-
-<label for="file">downloading progress:</label>
-<progress id="file" value="32" max="100">32%</progress>
-
-
-<h1>The svg element</h1>
-
-<svg width="50" height="50">
-  <circle cx="50" cy="50" r="40" stroke="red" stroke-width="10" fill="blue" />
-  Sorry, your browser does not support inline SVG.
-</svg>
-
-</body>
+      <div>
+        <span id="ampm">AM</span>
+      </div>
+    </div>
+    <script src="app.component.js"></script>
+  </body>
 </html>
